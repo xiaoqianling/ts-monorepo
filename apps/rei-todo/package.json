@@ -1,0 +1,27 @@
+{
+  "name": "rei-todo",
+  "description": "Example of using Vite in a TS monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "@rei/design": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "@vitejs/plugin-react": "4.3.4",
+    "rimraf": "6.0.1",
+    "typescript": "5.7.2",
+    "vite-tsconfig-paths": "5.1.4",
+    "vite": "6.0.5"
+  }
+}
