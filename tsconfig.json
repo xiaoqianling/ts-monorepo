@@ -6,8 +6,7 @@
     "paths": {
       "@nighttrax/components/*": ["packages/components/src/*"],
       "@nighttrax/*": ["packages/*/src"],
-      "@rei/*": ["packages/*/src"],
-      "@rei/design/*": ["packages/rei-design/src/*"]
+      "rei-design/*": ["packages/rei-design/src/*"]
     },
     "noEmit": true
   }

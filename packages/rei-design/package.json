@@ -1,5 +1,5 @@
 {
-  "name": "@rei/design",
+  "name": "rei-design",
   "version": "1.0.0",
   "scripts": {
     "build": "pnpm run clean && pnpm run compile",

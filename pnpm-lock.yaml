@@ -226,15 +226,15 @@ importers:
 
   apps/rei-todo:
     dependencies:
-      '@rei/design':
-        specifier: workspace:*
-        version: link:../../packages/rei-design
       react:
         specifier: 19.0.0
         version: 19.0.0
       react-dom:
         specifier: 19.0.0
         version: 19.0.0(react@19.0.0)
+      rei-design:
+        specifier: workspace:*
+        version: link:../../packages/rei-design
     devDependencies:
       '@types/react':
         specifier: 19.0.2
