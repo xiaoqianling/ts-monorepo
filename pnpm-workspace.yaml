@@ -1,3 +1,14 @@
 packages:
-  - 'packages/**'
-  - 'apps/**'
+  - "packages/**"
+  - "apps/**"
+  - "!apps/nextjs"
+  - "!apps/nestjs"
+  - "!apps/cra"
+  - "!apps/jest-babel"
+  - "!apps/jest-tsjest"
+  - "!apps/rollup"
+  - "!apps/storybook"
+  - "!apps/ts-node"
+  - "!apps/vite"
+  - "!apps/webpack"
+  - "!packages/components"

@@ -11,13 +11,19 @@
     "clean": "pnpm run -r clean",
     "build": "pnpm run -r build",
     "test": "pnpm run -r test",
-    "lint": "eslint --ext js,ts,tsx ."
+    "lint": "eslint --ext js,ts,tsx .",
+    "reset": "pnpm remove -g && pnpm install",
+    "prepare": "husky"
   },
   "devDependencies": {
-    "@nighttrax/eslint-config-tsx": "~12.0.0-alpha.2",
-    "doctoc": "~2.2.0",
-    "eslint": "~8.57.0",
-    "eslint-plugin-import": "~2.31.0",
-    "typescript": "~4.9.0"
+    "@changesets/cli": "2.27.11",
+    "@commitlint/cli": "19.6.1",
+    "@commitlint/types": "19.5.0",
+    "@commitlint/config-conventional": "19.6.0",
+    "doctoc": "2.2.1",
+    "eslint": "9.17.0",
+    "eslint-plugin-import": "2.31.0",
+    "typescript": "5.7.2",
+    "husky": "9.1.7"
   }
 }
