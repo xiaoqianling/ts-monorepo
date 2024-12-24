@@ -4,8 +4,6 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@nighttrax/components/*": ["packages/components/src/*"],
-      "@nighttrax/*": ["packages/*/src"],
       "rei-design/*": ["packages/rei-design/src/*"]
     },
     "noEmit": true
